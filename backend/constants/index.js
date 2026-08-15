@@ -1,0 +1,66 @@
+const ROLES = {
+  CITIZEN: 'citizen',
+  CONTRACTOR: 'contractor',
+  AUTHORITY: 'authority'
+};
+
+const COMPLAINT_STATUS = {
+  NEW: 'NEW',
+  UNDER_REVIEW: 'UNDER_REVIEW',
+  VERIFIED: 'VERIFIED',
+  ASSIGNED: 'ASSIGNED',
+  IN_PROGRESS: 'IN_PROGRESS',
+  RECTIFICATION_SUBMITTED: 'RECTIFICATION_SUBMITTED',
+  AUTHORITY_VERIFICATION: 'AUTHORITY_VERIFICATION',
+  RESOLVED: 'RESOLVED',
+  REJECTED: 'REJECTED'
+};
+
+const SEVERITY = {
+  LOW: 'LOW',
+  MEDIUM: 'MEDIUM',
+  HIGH: 'HIGH',
+  CRITICAL: 'CRITICAL'
+};
+
+const PRIORITY = {
+  NORMAL: 'NORMAL',
+  IMPORTANT: 'IMPORTANT',
+  URGENT: 'URGENT',
+  EMERGENCY: 'EMERGENCY'
+};
+
+const ISSUE_TYPES = [
+  'Pothole',
+  'Crack',
+  'Surface Damage',
+  'Waterlogging',
+  'Road Collapse',
+  'Unsafe Road',
+  'Accident Related',
+  'Delayed Maintenance',
+  'Other'
+];
+
+const PROJECT_STATUS = {
+  PLANNING: 'PLANNING',
+  ACTIVE: 'ACTIVE',
+  COMPLETED: 'COMPLETED',
+  SUSPENDED: 'SUSPENDED'
+};
+
+const TENDER_STATUS = {
+  OPEN: 'OPEN',
+  CLOSED: 'CLOSED',
+  AWARDED: 'AWARDED'
+};
+
+module.exports = {
+  ROLES,
+  COMPLAINT_STATUS,
+  SEVERITY,
+  PRIORITY,
+  ISSUE_TYPES,
+  PROJECT_STATUS,
+  TENDER_STATUS
+};
